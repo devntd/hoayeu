@@ -1,0 +1,195 @@
+@import "../less/bootstrap.less";
+
+div.line{
+  position: absolute;
+  .size(100%, 7px);
+  left: 0px;
+}
+/*0000000000000000000000000000000000000000000000000000000*/
+
+/*  Order
+===============================================================*/
+div#order{
+  margin: 50px 0px 50px;
+  div.row{
+    position: relative;
+    background: @color-branding-danger url("../images/hoayeu/bg-news.png");
+    .box-shadow(2px 2px 2px rgba(0,0,0,.1));
+  }
+  div#order-content{
+    padding: 30px 20px;
+    overflow: hidden;
+
+    section#content-order{
+      overflow: hidden;
+      h3{
+        font-family: @font-family-uppercase;
+        font-size: @font-size-h3 + 3px;
+        color: @color-deepskyblue;
+        text-transform: uppercase;
+        text-indent: 15px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        border-bottom: 1px dotted #888888;
+        margin-bottom: 40px;
+      }
+      article{
+        margin-bottom: 20px;
+        overflow: hidden;
+        div{
+          ul{
+            .del-margin-padding;
+            li{
+            }
+          }
+        }
+        input{
+          border: 2px dotted @color-branding-danger;
+          background: @color-brand-primary;
+          .box-shadow(2px 2px 2px rgba(0,0,0,.2px));
+          color: white;
+          .transition(all .2s linear 0s);
+          &:hover{
+            background: @color-orange;
+          }
+        }
+      }
+    }
+    section#my-order{
+      position: relative;
+      text-align: center;
+      margin: 0px !important;
+      padding: 0px 0px 185px;
+      background: white;
+      .box-shadow(2px 2px 2px rgba(0,0,0,.2));
+      h2{
+        text-align: center;
+        color: @color-brand-primary;
+      }
+      ul.title-my-order{
+        .del-margin-padding;
+        padding: 2px 0px !important;
+        border-top: 1px solid @color-brand-primary;
+        border-bottom: 1px solid @color-brand-primary;
+        overflow: hidden;
+        li{
+          font-size: @font-size-h5 - 3px;
+        }
+      }
+      div.content-my-order{
+        margin-top: 15px;
+        ul{
+          .del-margin-padding;
+          font-size: @font-size-h5 - 3px;
+        }
+      }
+      div#my-name{
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+        left: 0px;
+        .del-margin-padding;
+        h3{
+          height: 20px;
+          position: relative;
+          span{
+            position: absolute;
+            top: 0px; right: 0px;
+            height: 18px;
+            display: block;
+            width: 22px;
+            text-indent: -99999px;
+            cursor: pointer;
+            background: @color-branding-danger url('../images/hoayeu/pen.png') no-repeat center;
+            .transition(all .2s linear 0s);
+            &:hover{
+              .box-shadow(2px 2px 2px rgba(0,0,0,.3px));
+            }
+          }
+          padding: 2px 0px;
+          color: @color-branding-danger;
+          text-align: center;
+          font-size: @font-size-h5;
+          border-top: 1px solid @color-brand-primary;
+          border-bottom: 1px solid @color-brand-primary;
+          background: @color-orange;
+        }
+        div.content-my-name{
+          ul.text-title{
+            .del-margin-padding;
+            li{
+              color: #888;
+              font-size: @font-size-h5 - 3px;
+              line-height: 22px;
+              text-align: right;
+            }
+          }
+          ul.text-content{
+            .del-margin-padding;
+            li.name-bold{
+              input{
+                color: @color-brand-primary;
+              }
+            }
+            li.date{
+              input{
+                width: 20px;
+              }
+              input.yeah{
+                width: 35px;
+              }
+            }
+            li{
+              text-align: start;
+              input{
+                text-align: start;
+                line-height: 20px;
+                font-size: @font-size-h5 - 3px;
+                background: none;
+                outline:none;
+                border: none;
+                -webkit-appearance: textfield;
+                -moz-appearance: textfield;
+                appearance: textfield;
+              }
+              input.fixing{
+                border: 1px solid @color-red;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/*  Responsive
+======================================================================================================================*/
+
+/*Medium devices
+======================================================================================================================*/
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+/*Small devices
+======================================================================================================================*/
+/*  ( min-width: 768px) and (max-width: 992px)
+*******************************************/
+@media (min-width: 768px) and (max-width: 992px) {
+
+
+}
+
+/*  (max-width: 768px)
+*******************************************/
+@media (max-width: 767px) {
+
+}
+
+/*  (max-width: 480px)
+*******************************************/
+@media (max-width: 480px) {
+
+}

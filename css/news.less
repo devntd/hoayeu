@@ -1,0 +1,241 @@
+@import "../less/bootstrap.less";
+
+
+/*0000000000000000000000000000000000000000000000000000000*/
+div#bg-body {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  background-position: 0px -422px;
+  z-index: -10;
+}
+
+.line-news{
+  .size(100%,7px);
+  position: absolute;
+  left: 0px;
+}
+.line-news-content-top{
+  top: -7px;
+}
+.line-news-content-bottom{
+  bottom: -7px;
+}
+.tag-link{
+  position: absolute;
+  top: -102px;
+  color: white;
+  z-index: 99999;
+}
+
+
+/*  News
+===============================================================*/
+div#news {
+  position: relative;
+  padding: 20px 0px;
+  margin-top: 30px;
+  div.row{
+    position: relative;
+  }
+  section{
+    article.box-news:nth-child(1n + 1) div.date{
+      background: @color-deepskyblue;
+    }
+    article.box-news:nth-child(2n + 2) div.date{
+      background: @color-orange;
+    }
+    article.box-news:nth-child(3n + 3) div.date{
+      background: @color-red;
+    }
+    article.box-news{
+      position: relative;
+      overflow: hidden;
+      padding: 7px 0px;
+      div.date{
+        margin-top: 30px;
+        color: @color-branding-danger;
+        h4{
+        }
+        h2{
+          font-size: @font-size-h2 + 5px;
+        }
+      }
+      div.content-news{
+        background:@color-white url("../images/hoayeu/bg-news.png");
+        .box-shadow(2px 2px 2px rgba(0,0,0,.1));
+        padding: 0px 30px !important;
+        position: relative;
+        div.node-news{
+          padding: 20px 0px 0px;
+          margin-bottom: 50px;
+          h1.title-news-content{
+            font-family: @font-family-title;
+            font-size: @font-size-h2;
+            color: @color-brand-primary;
+            text-align: center;
+          }
+          div.img-news-content{}
+          div.text-news-content{
+            p{
+              font-size: @font-size-h5;
+            }
+          }
+        }
+        div.share{
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+
+  aside.scroll{
+    top: 100px !important;
+    position: fixed; right: 0px;
+    margin-left: 0px !important;
+  }
+  aside{
+    margin-top: 8px;
+    margin-left: 20px;
+    position:relative;
+    z-index: 999999;
+    hgroup{
+      background: @color-white;
+      color: @color-orange;
+      font-size: @font-size-h1 - 3px;
+      cursor: default;
+      text-indent: 15px;
+    }
+    div#nav-news{
+      hgroup{}
+      ul{
+        list-style: none;
+        .del-margin-padding;
+        li{
+          margin: 10px 0px;
+          text-indent: 15px;
+          a{
+            color: #888888;
+            .transition(all .2s linear 0s);
+            &:hover{
+            }
+          }
+        }
+      }
+    }
+    div#specials{
+      margin-top: 30px;
+      hgroup{}
+      p{
+        padding: 5px 15px;
+        margin: 10px 0px;
+      }
+    }
+  }
+}
+
+
+/*  Responsive
+======================================================================================================================*/
+
+/*Medium devices
+======================================================================================================================*/
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+/*Small devices
+======================================================================================================================*/
+/*  ( min-width: 768px) and (max-width: 992px)
+*******************************************/
+@media (min-width: 768px) and (max-width: 992px) {
+
+
+  /*  News
+   =================*/
+  div#news{
+    article{
+      div.date{
+        padding: 0px 5px !important;
+        h4{
+          font-size: @font-size-h6;
+        }
+      }
+    }
+    aside{
+
+    }
+  }
+}
+
+/*  (max-width: 768px)
+*******************************************/
+@media (max-width: 767px) {
+
+  /*  News
+  =================*/
+  div#news{
+    margin-top: 40px;
+    paddind: 0px;
+    section{
+      div.line-news{
+        display: none !important;
+      }
+      article{
+        border-bottom: 1px dotted @color-brown;
+        background:@color-white url("../images/hoayeu/bg-news.png");
+        margin-bottom: 0px !important;
+        div.date{
+          margin-top: 20px !important;
+          h4{
+            font-size: @font-size-h5 !important;
+          }
+          h2{
+            font-size: @font-size-h5 !important;
+          }
+        }
+        div.content-news{
+          background: none !important;
+          box-shadow: none !important;
+          h1.title-news-content{
+            font-family: @font-family-title;
+          }
+        }
+
+      }
+    }
+    aside{
+      display: none !important;
+    }
+
+  }
+
+  /*  Intro
+  =================*/
+  div.intro-news{
+    display: none;
+  }
+}
+
+/*  (max-width: 480px)
+*******************************************/
+@media (max-width: 480px) {
+
+  /*  List Menu
+  ==================*/
+  div#menu-list {
+    span{
+
+    }
+    ul#list-menu{
+      width: 320px;
+      margin: 0px auto !important;
+      display: none;
+      li > a{
+      }
+    }
+  }
+
+}

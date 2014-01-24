@@ -1,0 +1,418 @@
+@import "../less/bootstrap.less";
+
+
+
+/*0000000000000000000000000000000000000000000000000000000*/
+
+
+/*  Header
+*******************************************************************************/
+div#bg-index{
+  width: 100%;
+  position: absolute;
+  top: 0px; left: 0px;
+  z-index: 0;
+  overflow: hidden;
+  img{
+
+  }
+}
+header{
+  overflow: hidden;
+  .transition(all .4s linear 0s);
+  position: relative;
+  /*Share*/
+  div#order_share{
+    height: 40px; overflow: hidden;
+    background: @color-yellow url("../images/hoayeu/bg-news.png");
+    /*border-bottom: 1px solid @color-grey;*/
+    div#share{
+      .transition(all .4s linear 0s);
+      div#order_online{
+        position:relative;
+        z-index: 200;
+        a{
+          color: @color-deepskyblue;
+          line-height: 40px;
+          font-size: @font-size-h2 - 3px;
+          padding-right: 10px;
+        }
+        span{
+          padding-left: 10px;
+          border-left: 1px solid @color-deepskyblue;
+          color: @color-red;
+        }
+      }
+      div#share_search{
+        z-index: 100;
+        .del-margin-padding;
+        .f-right{
+          float: right;
+          ul{
+            background: @color-yellow;
+            .del-margin-padding;
+            float: left;
+            list-style: none;
+            li:first-child{
+              border-left: 1px solid @color-grey;
+            }
+            li{
+              display: inline-block;
+              border-right: 1px solid @color-grey;
+              margin: 0px -2px;
+              a{
+                text-align: center;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                display: block;
+                .transition(all .2s linear 0s);
+                &:hover{
+                  background: url('../images/hoayeu/bg-icon-header.png') no-repeat;
+                }
+              }
+            }
+          }
+          form{
+            float :left;
+            div{
+              border-right: 1px solid @color-grey;
+              overflow: hidden;
+              position: relative;
+              height: 40px;
+              width: 40px;
+              .transition(all .2s linear 0s);
+              &:hover{
+                padding: 0px 20px;
+                width: 230px;
+              }
+              &:hover input{
+                display: block;
+              }
+              &:hover span{
+                right: 13px;top: 0px;
+                left: auto;
+              }
+              input{
+                border-radius: 3px;
+                background: @color-white;
+                border: 1px solid @color-brown;
+                outline: none;
+                display: none;
+                margin-top: 7px;
+                height: 25px;
+                width: 100% !important;
+                color: @color-deepskyblue;
+                text-transform: uppercase;
+                text-indent: 5px;
+                font-family: @font-family-uppercase;
+              }
+              span{
+                position: absolute; left: 0px; top: 0px;
+                line-height: 40px; width: 40px;
+                display: block;
+                cursor: pointer;
+                text-align: center;
+                .transition(all .2s linear 0s);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /* Nav*/
+  nav#nav{
+    z-index: 99999;
+    position: relative;
+    margin-top: 280px;
+    background: rgba(237,207,107,.8) url("../images/hoayeu/bg-news.png");
+    div.container{
+      .del-padding;
+      .transition(all .4s linear 0s);
+    }
+    div#logo{
+      background: rgba(1,160,176,.8);
+      .transition(all .2s linear 0s);
+    }
+    button{
+      position: absolute; top: 15px; right: 20px;
+      z-index: 100;
+      .del-margin;
+      padding: 3px 6px;
+      border-radius: 0px;
+      border: 1px solid @color-brown;
+      background: @color-white;
+      outline: none;
+      .transition(all .2s linear 0s);
+      .size(40px,30px);
+      span{
+        display: block;
+        margin: 2px 0px;
+        .transition(all 1s linear 0s);
+        background: rgba(255, 255, 255, .7);
+        border-top: 1px dotted @color-brown !important;
+      }
+      &:hover {
+        background: @color-yellow;
+      }
+      &:hover span {
+        background: rgba(255, 255, 255, 1);
+      }
+    }
+    div#nav-header{
+      text-align: center;
+      ul{
+        .del-margin-padding;
+        li.active{
+          a{
+            color: @color-red;
+          }
+        }
+        li{
+          .transition(all .4s linear 0s);
+          margin: 0px -2px;
+          width: 100% / 7;
+          display: inline-block;
+          a{
+            line-height: 60px;
+            color: @color-brand-primaty-black;
+            font-size: @font-size-h3 + 3px;
+            font-family: @font-family-uppercase;
+            text-transform: uppercase;
+            padding: 0px 20px;
+            .transition(all .3s linear 0s);
+            &:hover{
+              color: @color-red;
+              text-shadow: 2px 2px 2px rgba(0,0,0,.3);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/*  Footer
+*******************************************************************************/
+footer{
+  .transition(all .4s linear 0s);
+  margin-top: 30px;
+  div.container{
+    padding: 20px 0px 0px;
+    background: none repeat scroll 0% 0% rgba(0, 0, 0, 0.03);
+    div#contact{
+      .transition(all .4s linear 0s);
+      margin-bottom: 10px;
+      overflow: hidden;
+      div{
+        hgroup{
+          padding-top: 10px;
+          display: block;
+          color:@color-grey;
+          font-family: @font-family-title;
+          font-size: @font-size-h2;
+        }
+        ul{
+          .del-margin-padding;
+          li{
+            font-size: @font-size-h5 - 1px;
+          }
+        }
+      }
+    }
+    div#copyright{
+      .transition(all .4s linear 0s);
+      height: 110px;
+      overflow: hidden;
+      border-top: 1px dotted @color-brown;
+      background: url("../images/hoayeu/bg-copyright.png")no-repeat right bottom;
+      p{
+        padding: 0px 10px;
+        margin-top: 10px;
+        font-size: @font-size-h5 - 2px;
+        span{
+          color: @color-omedia;
+        }
+      }
+    }
+  }
+}
+
+
+
+/*  Responsive
+======================================================================================================================*/
+
+
+
+/*Medium devices
+======================================================================================================================*/
+@media (min-width: 992px) and (max-width: 1200px) {
+  /*header
+  ****************/
+  header{
+    nav#nav{
+      div#logo{}
+      div#nav-header{
+        ul{
+          li{
+            a{
+              padding: 0px 5px !important;
+              font-size: @font-size-h3;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+/*Small devices
+======================================================================================================================*/
+/*  ( min-width: 768px) and (max-width: 992px)
+*******************************************/
+@media (min-width: 768px) and (max-width: 992px) {
+  /*header
+    ****************/
+  header{
+    nav#nav{
+      div#logo{}
+      div#nav-header{
+        ul{
+          li{
+            a{
+              padding: 0px 3px !important;
+              font-size: @font-size-h4;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+/*  (max-width: 768px)
+*******************************************/
+@media (max-width: 767px) {
+
+  /*header
+  ****************/
+  div#order_share{
+    div#order_online{
+      width: 150px !important;
+      top: 0px; left: 0px;
+      position: absolute !important;
+      float: inherit;
+      text-align: left;
+      a{
+        .del-margin-padding;
+        display: block;
+        width: 100%;
+        line-height: inherit !important;
+        font-size: @font-size-h5 !important;
+      }
+      span{
+        .del-margin-padding;
+        width: 100%;
+        line-height:inherit !important;
+        border: none !important;
+        display: block;
+      }
+    }
+    div#share_search{
+      position: absolute !important;
+      top: 0px; right: 0px;
+      width: 340px;
+      form{
+        div{
+          padding: 0px 5px !important;
+          &:hover{
+            width: 150px !important;
+          }
+          &:hover span{
+            right: 0px !important;
+          }
+        }
+      }
+    }
+  }
+  nav#nav{
+    div#nav-header{
+      border-top: 1px dotted @color-red;
+      .del-margin-padding;
+      ul{
+        background: @color-deepskyblue;
+        li{
+          width: auto !important;
+          text-align: center;
+          a{
+            color: @color-white !important;
+            line-height: 30px !important;
+            &:hover{
+              color: @color-red !important;
+              text-shadow: 2px 2px 2px rgba(0,0,0,.3);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /*  Footer
+  ******************/
+  footer{
+    div#contact{
+      text-align: center;
+    }
+  }
+}
+
+
+/*  (max-width: 480px)
+*******************************************/
+@media (max-width: 480px) {
+  /*header
+  ****************/
+
+}
+/*  (max-width: 320px)
+*******************************************/
+@media (max-width: 320px) {
+  /*header
+  ****************/
+  div#order_share{
+    div#order_online{
+
+      a{
+
+      }
+      span{
+
+      }
+    }
+    div#share_search{
+
+      .del-margin-padding;
+      width: 210px;
+      form{
+        div{
+          padding: 0px 5px !important;
+          &:hover{
+            width: 85px !important;
+          }
+          &:hover span{
+            right: 0px !important;
+          }
+        }
+      }
+    }
+  }
+
+}

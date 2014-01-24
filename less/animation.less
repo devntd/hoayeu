@@ -1,0 +1,119 @@
+.position(@position,@top,@left,@bottom,@right){
+  position : @position;
+  top      : @top;
+  left     : @left;
+  bottom   : @bottom;
+  right    : @right;
+}
+/*hehe*/
+.columns-gap-rule(@width,@count,@gap,@rule){
+  -webkit-columns: @width @count;
+  -moz-columns: @width @count;
+  -ms-columns: @width @count;
+  -o-columns: @width @count;
+  columns: @width @count;
+
+  -webkit-column-gap: @gap;
+  -moz-column-gap: @gap;
+  -ms-column-gap: @gap;
+  -o-column-gap: @gap;
+  column-gap: @gap;
+
+  -webkit-column-rule: @rule;
+  -moz-column-rule: @rule;
+  -ms-column-rule: @rule;
+  -o-column-rule: @rule;
+  column-rule: @rule;
+}
+.columns-break-inside(@break-inside){
+  -webkit-column-break-inside: @break-inside;
+  -moz-column-break-inside: @break-inside;
+  -ms-column-break-inside: @break-inside;
+  -o-column-break-inside: @break-inside;
+  column-break-inside: @break-inside;
+}
+.transition(@transition){
+  -webkit-transition: @transition;
+  -moz-transition: @transition;
+  -ms-transition: @transition;
+  -o-transition: @transition;
+  transition: @transition;
+}
+.transform(@bien){
+  -webkit-transform: @bien;
+  -moz-transform: @bien;
+  -ms-transform: @bien;
+  -o-transform: @bien;
+  transform: @bien;
+}
+.transform2(@bien1,@bien2){
+  -webkit-transform: @bien1,@bien2;
+  -moz-transform: @bien1,@bien2;
+  -ms-transform: @bien1,@bien2;
+  -o-transform: @bien1,@bien2;
+  transform: @bien1,@bien2;
+}
+.animation(@animation){
+  -webkit-animation: @animation;
+  -moz-animation: @animation;
+  -ms-animation: @animation;
+  -o-animation: @animation;
+  animation: @animation;
+}
+.animation-fill-mode-forwards{
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.animation-fill-mode-none{
+  -webkit-animation-fill-mode: none;
+  -moz-animation-fill-mode: none;
+  -o-animation-fill-mode: none;
+  animation-fill-mode: none;
+}
+.box-option(@orient,@align,@pack){
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -o-box;
+  -webkit-box-orient: @orient;
+  -moz-box-orient: @orient;
+  -ms-box-orient: @orient;
+  -o-box-orient: @orient;
+  box-orient: @orient;
+  -webkit-box-pack: @align;
+  -moz-box-pack: @align;
+  -ms-box-pack: @align;
+  -o-box-pack: @align;
+  box-pack: @align;
+  -webkit-box-align: @pack;
+  -moz-box-align: @pack;
+  -ms-box-align: @pack;
+  -o-box-align: @pack;
+  box-align: @pack;
+}
+.flex(@boxflex){
+  -webkit-box-flex: @boxflex;
+  -moz-box-flex: @boxflex;
+  -ms-box-flex: @boxflex;
+  -o-box-flex: @boxflex;
+  box-flex: @boxflex;
+}
+#shadow{
+  .shadow(text, @x, @y, @blur, @color){
+    text-shadow: @x @y @blur @color;
+  }
+  .shadow(box, @x:1px, @y:2px , @blur:3px, @color:blue){
+    box-shadow: @x @y @blur @color;
+  }
+  .shadow(@inset, @x, @y, @blur, @color){
+    box-shadow: @inset @x @y @blur @color
+  }
+  #box{
+    .shadow(box, @x:1px, @y:2px , @blur:3px, @color:yellow){
+      box-shadow: @x @y @blur @color;
+    }
+  }
+}
+@sizing: border-box;

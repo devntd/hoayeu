@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4a9c096-b35f-421d-b755-e76d12e026bc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/212.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UOSM-KGWaystoSayGoodbye.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UOSM-KGWaystoSayGoodbye.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UOSM-KGWaystoSayGoodbye.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UOSM-KGWaystoSayGoodbye.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UOSM-Kawoszeh.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UOSM-Kawoszeh.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UOSM-Kawoszeh.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UOSM-Kawoszeh.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UOSM-Kawoszeh.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UVF-Barmbrack (lỗi chữ Đ).eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UVF-Barmbrack (lỗi chữ Đ).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UVF-Barmbrack (lỗi chữ Đ).otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UVF-Barmbrack (lỗi chữ Đ).ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UVF-Barmbrack (lỗi chữ Đ).woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UVF-OnlyYouPro-Bold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UVF-OnlyYouPro-Bold.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UVF-OnlyYouPro-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UVF-OnlyYouPro-Bold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UVF-Voyage-Regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UVF-Voyage-Regular.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UVF-Voyage-Regular.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UVF-Voyage-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UVF-Voyage-Regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Comic-Sans.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Comic-Sans.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Comic-Sans.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Comic-Sans.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Comic-Sans.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Dax-Regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Dax-Regular.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Dax-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Dax-Regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-DiamondsBold.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-DiamondsBold.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-DiamondsBold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-DiamondsBold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-DiamondsBold.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Futura-Regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Futura-Regular.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Futura-Regular.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Futura-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Futura-Regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Rex-Light.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Rex-Light.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Rex-Light.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Rex-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Rex-Light.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-RomeoPro.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-RomeoPro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-RomeoPro.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-RomeoPro.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-SheliaRegular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-SheliaRegular.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-SheliaRegular.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-SheliaRegular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-SheliaRegular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Znikomit.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Znikomit.ttf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Znikomit.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Znikomit.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/bg-about.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/bg-copyright.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/bg-header-about.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/bg-header-contact.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/bg-header-gallery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/bg-header-index.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/bg-header-news.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/bg-header-service.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/bg-header-shop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/bg-icon-header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/bg-menu-shop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/bg-news.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/bg-shop-1-750-187x180.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/bg-shop-1-970-242x180.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/bg-shop-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/New folder/bg-shop-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/bg-shop-2-750-187x180.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/bg-shop-2-970-242x180.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/bg-shop-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/New folder/bg-shop-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/bg-shop.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/box-title-tiny-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/box-title-tiny-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/box-title-tiny.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/dienhoa(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/dienhoa(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/dienhoa(3).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/dienhoa(4).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/facebook_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/icon-flower.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/members().psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/members(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/members(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/members(3).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/members(4).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/order-ft.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/pen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/pin_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/png.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/search-icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/service(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/service(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/service(3).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/service(4).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/sp(1).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/sp(2).jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/tay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/hoayeu/twitter_icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/HeoCoi.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UOSM-KGWaystoSayGoodbye.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UOSM-Kawoszeh.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UVF-Barmbrack (lỗi chữ Đ).svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UVF-OnlyYouPro-Bold.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/UVF-Voyage-Regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Comic-Sans.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Dax-Regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-DiamondsBold.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Futura-Regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Rex-Light.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-RomeoPro.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-SheliaRegular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fonts/font-web/VNF-Znikomit.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/about.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/about.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/alerts.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/animation.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/animation.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/badges.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/bootstrap.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/breadcrumbs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/button-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/buttons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/carousel.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/close.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/code.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/color+logo+font.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/color+logo+font.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/component-animations.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/contact.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/contact.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/contact.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/dropdowns.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/forms.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/gallery.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gallery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/gallery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/gallery.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/glyphicons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/grid.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/header-footer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/header-footer.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/hoayeu.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/index.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/input-groups.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.1.7.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.equalheights.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jquery.scrollTo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/jumbotron.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/labels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/list-group.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/media.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/mixins.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/modals.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/my-setting.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/my-setting.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/nav.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/navbar.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/navs.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/news.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/news.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/news.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/news.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/normalize.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/order.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/order.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/order.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/order.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/order2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/order2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/order2.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/order3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/order3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/order3.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/pager.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/pagination.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/panels.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/popovers.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/print.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/progress-bars.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/responsive-utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/scaffolding.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/service.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/service.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/service.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/service.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/shop.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/shop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/shop.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/tables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/template.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/template.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/theme.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/thumbnails.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/tooltip.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/type.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/utilities.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/variables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/less/wells.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="hoayeu.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="hoayeu" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/css/order3.less" />
+        <option value="$PROJECT_DIR$/../kbc/order3.html" />
+        <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/gallery.html" />
+        <option value="$PROJECT_DIR$/news.html" />
+        <option value="$PROJECT_DIR$/order.html" />
+        <option value="$PROJECT_DIR$/order3.html" />
+        <option value="$PROJECT_DIR$/service.html" />
+        <option value="$PROJECT_DIR$/shop.html" />
+        <option value="$PROJECT_DIR$/order2.html" />
+        <option value="$PROJECT_DIR$/css/order2.less" />
+        <option value="$PROJECT_DIR$/js/contact.js" />
+        <option value="$PROJECT_DIR$/contact.html" />
+        <option value="$PROJECT_DIR$/css/contact.less" />
+        <option value="$PROJECT_DIR$/css/header-footer.less" />
+        <option value="$PROJECT_DIR$/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpXdebugProxy" ide_key="hmhgeddbohgjknpmjagkdomcpobmllji" host="127.0.0.1" port="63342" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="10" />
+    <option name="width" value="1346" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents ProjectPane="true" />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoayeu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoayeu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hoayeu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="options.lastSelected" value="settings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\hoayeu" />
+      <recent name="C:\wamp\www\hoayeu\js" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4a9c096-b35f-421d-b755-e76d12e026bc" name="Default" comment="" />
+      <created>1385787065713</created>
+      <updated>1385787065713</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Update new file">
+      <created>1390559206814</created>
+      <updated>1390559206814</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="0" width="1346" height="728" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15413533" sideWeight="0.46422893" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5357711" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290938" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USERS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="Update new file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update new file" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="944" selection-end="944" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="2822">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/header-footer.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="21" selection-start="1052" selection-end="1052" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7208">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="117" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.5663717" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="117" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.39115044" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="117" selection-start="1428" selection-end="1428" vertical-scroll-proportion="0.679646" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/news.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="117" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/contact.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/order2.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.21694915" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="19" selection-start="19" selection-end="19" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/order.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="0" selection-end="243" vertical-scroll-proportion="0.13266999" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/order2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="314" selection-end="386" vertical-scroll-proportion="0.25486726" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/contact.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="44" selection-start="2439" selection-end="2439" vertical-scroll-proportion="0.36484244" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="15" selection-start="688" selection-end="688" vertical-scroll-proportion="-5.12" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/header-footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="17" selection-start="177" selection-end="177" vertical-scroll-proportion="0.35254237" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/header-footer.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="59" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="7208">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="107" column="50" selection-start="0" selection-end="7163" vertical-scroll-proportion="0.5473485" vertical-offset="1530" max-vertical-offset="2975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="0" selection-end="8214" vertical-scroll-proportion="0.3219697" vertical-offset="0" max-vertical-offset="2975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="37" selection-start="0" selection-end="6794" vertical-scroll-proportion="0.38636363" vertical-offset="476" max-vertical-offset="2822">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

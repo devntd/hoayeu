@@ -1,0 +1,80 @@
+@import "../less/bootstrap.less";
+
+/*0000000000000000000000000000000000000000000000000000000*/
+
+
+/*  Service
+*******************************************************************************/
+div#service{
+  margin-top: 50px;
+  text-align: center;
+  div.node-service:nth-child(1) hgroup a{
+    color: @color-orange;
+  }
+  div.node-service:nth-child(2) hgroup a{
+    color: @color-red;
+  }
+  div.node-service:nth-child(3) hgroup a{
+      color: @color-yellow;
+  }
+  div.node-service:nth-child(4) hgroup a{
+      color: @color-deepskyblue;
+  }
+  div.node-service{
+    img{
+
+    }
+    hgroup{
+      margin: 10px 0px;
+      font-size: @font-size-h2;
+      font-family: @font-family-title;
+    }
+    p.content{
+      font-size: @font-size-h5;
+      font-family: @font-family-base;
+    }
+  }
+}
+
+
+
+
+/*  Responsive
+======================================================================================================================*/
+
+/*Medium devices
+======================================================================================================================*/
+@media (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+
+/*  Small devices
+======================================================================================================================*/
+/*  ( min-width: 768px) and (max-width: 992px)
+*******************************************/
+@media (min-width: 768px) and (max-width: 992px) {
+  div#service{
+    div.node-service{
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+/*  Extra devices
+======================================================================================================================*/
+
+/*  (max-width: 768px)
+*******************************************/
+@media (max-width: 767px) {
+
+}
+
+/*  (max-width: 480px)
+*******************************************/
+@media (max-width: 480px) {
+
+}

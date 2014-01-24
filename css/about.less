@@ -1,0 +1,151 @@
+@import "../less/bootstrap.less";
+
+
+/*0000000000000000000000000000000000000000000000000000000*/
+
+
+/*  about
+*******************************************************************************/
+div#about{
+  margin-top: 40px;
+  div.container{
+    padding: 40px 170px;
+    background: url("../images/hoayeu/bg-about.png")repeat center;
+    text-align: center;
+    .box-shadow(0px 2px 2px rgba(0,0,0,.3));
+    hgroup{
+      color: @color-orange;
+      margin: 10px 0px;
+      font-size: @font-size-h1;
+      font-family: @font-family-title;
+    }
+    p{
+      width: 100%;
+      overflow: hidden;
+      margin: 20px 0px;
+
+    }
+    p.content{
+      font-size: @font-size-h3;
+      font-family: @font-family-base;
+    }
+  }
+}
+
+/*  members
+*******************************************************************************/
+div#members{
+  margin-top: 50px;
+  text-align: center;
+  div.node-members:nth-child(1) hgroup{
+    color: @color-orange;
+  }
+  div.node-members:nth-child(2) hgroup{
+    color: @color-red;
+  }
+  div.node-members:nth-child(3) hgroup{
+    color: @color-yellow;
+  }
+  div.node-members:nth-child(4) hgroup{
+    color: @color-deepskyblue;
+  }
+  div.node-members{
+    img{
+
+    }
+    hgroup{
+      margin: 10px 0px;
+      font-size: @font-size-h2;
+      font-family: @font-family-title;
+      cursor: default;
+    }
+    p.content{
+      font-size: @font-size-h5;
+      font-family: @font-family-base;
+    }
+  }
+}
+
+
+
+/*  Responsive
+======================================================================================================================*/
+
+/*Medium devices
+======================================================================================================================*/
+@media (min-width: 992px) and (max-width: 1200px) {
+  /*  About
+  *******************/
+  div#about{
+    div.container{
+      padding: 40px 50px;
+    }
+  }
+}
+
+/*  Small devices
+======================================================================================================================*/
+/*  ( min-width: 768px) and (max-width: 992px)
+*******************************************/
+@media (min-width: 768px) and (max-width: 992px) {
+  /*  About
+   *******************/
+  div#about{
+    div.container{
+      padding: 40px 50px;
+    }
+  }
+
+  /*  Member
+  *******************/
+  div#members{
+    div.node-members{
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+/*  Extra devices
+======================================================================================================================*/
+
+/*  (max-width: 768px)
+*******************************************/
+@media (max-width: 768px) {
+  div#about{
+    div.container{
+      padding: 40px 50px;
+      hgroup{
+        margin: 0px 0px;
+        font-size: @font-size-h2;
+      }
+      p{
+        margin: 10px 0px;
+      }
+      p.content{
+        font-size: @font-size-h5 + 1px;
+        font-family: @font-family-base;
+      }
+    }
+  }
+
+}
+
+/*  (max-width: 480px)
+*******************************************/
+@media (max-width: 480px) {
+
+  div#about{
+
+    div.container{
+
+      p{
+        img{
+          width: 100%;
+        }
+      }
+    }
+  }
+}

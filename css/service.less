@@ -1,0 +1,150 @@
+@import "../less/bootstrap.less";
+
+
+/*0000000000000000000000000000000000000000000000000000000*/
+
+
+/*  Service
+*******************************************************************************/
+div#service{
+  .transition(all .4s linear 0s);
+  overflow: hidden;
+  margin-top: 40px;
+  padding: 20px 50px;
+  background: url("../images/hoayeu/bg-about.png")repeat center;
+  text-align: center;
+  .box-shadow(0px 2px 2px rgba(0,0,0,.3));
+  /*text*/
+  div#text{
+    hgroup{
+      color: @color-orange;
+      margin: 10px 0px 0px;
+      font-size: @font-size-h1;
+      font-family: @font-family-title;
+      display: block;
+    }
+    p.img-text{
+      width:272px; height:30px;
+      margin: 0px auto;
+      img{
+        height: 100%;
+        width: 100%;
+      }
+    }
+    p.content{
+      line-height: 25px;
+
+      font-family: @font-family-base;
+    }
+  }
+
+  /*list-service*/
+  div#list-service{
+    .group{
+      .position-center(-65px, -210px);
+      div:nth-child(1) hgroup{ color: @color-orange; }
+      div:nth-child(2) hgroup{ color: @color-deepskyblue; }
+      div:nth-child(3) hgroup{ color: @color-yellow; }
+      div:nth-child(4) hgroup{ color: @color-pink; }
+      div{
+        height: 105px;
+        width: 130px;
+        .del-padding;
+        text-align: center;
+        margin-bottom: 5px;
+        overflow: hidden;
+        img{
+          display: block;
+          margin: 0px auto;
+          .square(70px);
+        }
+        hgroup{
+          line-height: 30px;
+          font-size: @font-size-h3;
+          font-family: @font-family-title;
+        }
+      }
+    }
+  }
+
+}
+
+/*  Responsive
+======================================================================================================================*/
+
+/*Medium devices
+======================================================================================================================*/
+@media (min-width: 992px) and (max-width: 1200px) {
+  /*  About
+  *******************/
+  div#service{
+    div.container{
+      padding: 40px 50px;
+    }
+  }
+}
+
+/*  Small devices
+======================================================================================================================*/
+/*  ( min-width: 768px) and (max-width: 992px)
+*******************************************/
+@media (min-width: 768px) and (max-width: 992px) {
+  /*  About
+   *******************/
+  div#service{
+    div.container{
+      padding: 40px 50px;
+    }
+  }
+
+}
+
+
+/*  Extra devices
+======================================================================================================================*/
+
+/*  (max-width: 768px)
+*******************************************/
+@media (max-width: 768px) {
+  /*  Service
+  ********************/
+  div#service{
+    padding: 40px 50px;
+    div#text{
+      hgroup{
+        margin: 0px 0px;
+        font-size: @font-size-h2;
+      }
+      p{
+        margin: 10px 0px;
+      }
+      p.content{
+        font-size: @font-size-h5 + 1px;
+        font-family: @font-family-base;
+      }
+    }
+    div#list-service{
+      min-height: 100% !important;
+      overflow: hidden;
+      div.group{
+        position: static;
+        margin: auto;
+        div{
+          width: 50%;
+        }
+      }
+    }
+  }
+
+}
+
+/*  (max-width: 480px)
+*******************************************/
+@media (max-width: 480px) {
+  /*  Service
+    ********************/
+  div#service{
+    padding: 40px 10px;
+  }
+}
+

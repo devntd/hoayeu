@@ -1,0 +1,178 @@
+/*hehe*/
+.animation-fill-mode-forwards {
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.animation-fill-mode-none {
+  -webkit-animation-fill-mode: none;
+  -moz-animation-fill-mode: none;
+  -o-animation-fill-mode: none;
+  animation-fill-mode: none;
+}
+/* Logo
+=====================================================================*/
+/*vertical */
+.logo-vertical {
+  background: url('');
+  /* or logo Grey*/
+
+  height: 200px;
+  width: 200px;
+}
+/*horizontal */
+.logo-horizontal {
+  background: url('../img/hoayeu/logo.png') no-repeat center;
+  /* or logo Grey*/
+
+  height: 98px;
+  width: 200px;
+}
+/* Color system
+=====================================================================*/
+/*@color-branding-danger: #f8f2d8;*/
+/* chưa có logo */
+/* Body scaffolding
+=====================================================================*/
+/* Typography
+=====================================================================*/
+/*Delete text*/
+/*Generic font variables*/
+/*Base type styes */
+/*Heading font sizes */
+/*@font-size-h1:floor(@font-size-base * 2.6);
+@font-size-h2:floor(@font-size-base * 1.5);
+@font-size-h3:ceil(@font-size-base * 1.25);
+@font-size-h4:ceil(@font-size-base + 2);
+@font-size-h5:@font-size-base;
+@font-size-h6:ceil(@font-size-base * 0.85);*/
+/*Headings */
+/*Media queries breakpoints
+=====================================================================*/
+/* Link Font
+=====================================================================*/
+/*Script */
+@font-face {
+  font-family: 'UVF-OnlyYouPro-Bold';
+  src: url('../fonts/font-web/UVF-OnlyYouPro-Bold.eot');
+  src: local('UVF-OnlyYouPro-Bold'), url('../fonts/font-web/UVF-OnlyYouPro-Bold.woff') format('woff'), url('../fonts/font-web/UVF-OnlyYouPro-Bold.ttf') format('truetype'), url('../fonts/font-web/UVF-OnlyYouPro-Bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'VNF-SheliaRegular';
+  src: url('../fonts/font-web/VNF-SheliaRegular.eot');
+  src: local('VNF-SheliaRegular'), url('../fonts/font-web/VNF-SheliaRegular.woff') format('woff'), url('../fonts/font-web/VNF-SheliaRegular.ttf') format('truetype'), url('../fonts/font-web/VNF-SheliaRegular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'UVF-Voyage-Regular';
+  src: url('../fonts/font-web/UVF-Voyage-Regular.eot');
+  src: local('UVF-Voyage-Regular'), url('../fonts/font-web/UVF-Voyage-Regular.woff') format('woff'), url('../fonts/font-web/UVF-Voyage-Regular.ttf') format('truetype'), url('../fonts/font-web/UVF-Voyage-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'VNF-RomeoPro';
+  src: url('../fonts/font-web/VNF-RomeoPro.eot');
+  src: local('VNF-RomeoPro'), url('../fonts/font-web/VNF-RomeoPro.woff') format('woff'), url('../fonts/font-web/VNF-RomeoPro.ttf') format('truetype'), url('../fonts/font-web/VNF-RomeoPro.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'UOSM-KGWaystoSayGoodbye';
+  src: url('../fonts/font-web/UOSM-KGWaystoSayGoodbye.eot');
+  src: local('UOSM-KGWaystoSayGoodbye'), url('../fonts/font-web/UOSM-KGWaystoSayGoodbye.woff') format('woff'), url('../fonts/font-web/UOSM-KGWaystoSayGoodbye.ttf') format('truetype'), url('../fonts/font-web/UOSM-KGWaystoSayGoodbye.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*Serif */
+@font-face {
+  font-family: 'VNF-DiamondsBold';
+  src: url('../fonts/font-web/VNF-DiamondsBold.eot');
+  src: local('VNF-DiamondsBold'), url('../fonts/font-web/VNF-DiamondsBolds.woff') format('woff'), url('../fonts/font-web/VNF-DiamondsBold.ttf') format('truetype'), url('../fonts/font-web/VNF-DiamondsBold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'UVF-Barmbrack';
+  src: url('../fonts/font-web/UVF-Barmbrack.eot');
+  src: local('UVF-Barmbrack'), url('../fonts/font-web/UVF-Barmbrack.woff') format('woff'), url('../fonts/font-web/UVF-Barmbrack.ttf') format('truetype'), url('../fonts/font-web/UVF-Barmbrack.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*Sans Serif */
+/* 1 Việt hóa*/
+@font-face {
+  font-family: 'VNF-Dax-Regular';
+  src: url('../fonts/font-web/VNF-Dax-Regular.eot');
+  src: local('VNF-Dax-Regular'), url('../fonts/font-web/VNF-Dax-Regular.woff') format('woff'), url('../fonts/font-web/VNF-Dax-Regular.ttf') format('truetype'), url('../fonts/font-web/VNF-Dax-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'UOSM-Kawoszeh';
+  src: url('../fonts/font-web/UOSM-Kawoszeh.eot');
+  src: local('UOSM-Kawoszeh'), url('../fonts/font-web/UOSM-Kawoszeh.woff') format('woff'), url('../fonts/font-web/UOSM-Kawoszeh.ttf') format('truetype'), url('../fonts/font-web/UOSM-Kawoszeh.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'VNF-Znikomit';
+  src: url('../fonts/font-web/VNF-Znikomit.eot');
+  src: local('VNF-Znikomit'), url('../fonts/font-web/VNF-Znikomit.woff') format('woff'), url('../fonts/font-web/VNF-Znikomit.ttf') format('truetype'), url('../fonts/font-web/VNF-Znikomit.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'VNF-Comic-Sans';
+  src: url('../fonts/font-web/VNF-Comic-Sans.eot');
+  src: local('VNF-Comic-Sans'), url('../fonts/font-web/VNF-Comic-Sans.woff') format('woff'), url('../fonts/font-web/VNF-Comic-Sans.ttf') format('truetype'), url('../fonts/font-web/VNF-Comic-Sans.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'VNF-Rex-Light';
+  src: url('../fonts/font-web/VNF-Rex-Light.eot');
+  src: local('VNF-Rex-Light'), url('../fonts/font-web/VNF-Rex-Light.woff') format('woff'), url('../fonts/font-web/VNF-Rex-Light.ttf') format('truetype'), url('../fonts/font-web/VNF-Rex-Light.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'VNF-Futura-Regular';
+  src: url('../fonts/font-web/VNF-Futura-Regular.eot');
+  src: local('VNF-Futura-Regular'), url('../fonts/font-web/VNF-Futura-Regular.woff') format('woff'), url('../fonts/font-web/VNF-Futura-Regular.ttf') format('truetype'), url('../fonts/font-web/VNF-Futura-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  color: #0a3133;
+  background: url("../images/hoayeu/bg.jpg");
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none !important;
+}
+.col-xs-display {
+  display: none;
+}
+.del-padding {
+  padding: 0px !important;
+}
+.del-margin {
+  margin: 0px !important;
+}
+.del-margin-padding {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.del-border {
+  border: none !important;
+}
+.border-check {
+  border: 1px solid red;
+}

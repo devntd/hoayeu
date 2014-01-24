@@ -1,0 +1,13 @@
+/*hehe*/
+.animation-fill-mode-forwards {
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  -o-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.animation-fill-mode-none {
+  -webkit-animation-fill-mode: none;
+  -moz-animation-fill-mode: none;
+  -o-animation-fill-mode: none;
+  animation-fill-mode: none;
+}

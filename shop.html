@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=driver-width, initial-scale=1.0" charset="utf-8">
+    <title>Shop</title>
+
+    <!--JsPlugin-->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery.1.7.2.min.js"></script>
+
+
+    <!--Css-->
+    <!--<link rel="stylesheet" href="css/bootstrap.css"/>-->
+    <link rel="stylesheet" type="text/css" href="css/header-footer.css"/>
+    <link rel="stylesheet" type="text/css" href="css/shop.css"/>
+
+
+    <!--js-->
+    <script type="text/javascript" src="js/nav.js"></script>
+    <script type="text/javascript" src="js/shop.js"></script>
+
+    <!--Less-->
+    <!--<link rel="stylesheet/less" type="text/css" href="css/header-footer.less"/>-->
+    <!--<link rel="stylesheet/less" type="text/css" href="css/shop.less"/>-->
+    <!--<script type="text/javascript" src="js/less-1.5.0.min.js"></script>-->
+
+</head>
+<body>
+<!--    Header Nav
+--------------------------------------------------------------->
+
+<div id="bg-index">
+    <img src="images/hoayeu/bg-header-shop.png" alt=""/>
+</div>
+<header id="header">
+    <!--Order-share-->
+    <div id="order_share">
+        <div id="share" class="container">
+            <div id="order_online" class="col-lg-4 col-md-4 col-sm-6 col-xs-5 "><a class="col-xs-12" href="order.html">ĐẶT HÀNG ONLINE</a> <span class="col-xs-12" >0966 559 155</span></div>
+            <div id="share_search" class="col-lg-4 col-lg-push-4 col-md-5 col-md-push-3 col-sm-6 col-xs-7">
+                <div class="f-right">
+                    <ul>
+                        <li><a href="#"><img src="images/hoayeu/pin_icon.png" alt=""/></a></li>
+                        <li><a href="#"><img src="images/hoayeu/facebook_icon.png" alt=""/></a></li>
+                        <li><a href="#"><img src="images/hoayeu/twitter_icon.png" alt=""/></a></li>
+                    </ul>
+                    <form action="" method="post">
+                        <div>
+                            <input id="sr" type="search" placeholder="search"/>
+                            <span><img src="images/hoayeu/search-icon.png" alt=""/></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--nav-->
+    <nav id="nav">
+        <div class="container">
+            <div id="logo" class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                <img src="images/hoayeu/logo.png" alt=""/>
+            </div>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr_only"></span>
+                <span class="icon_bar"></span>
+                <span class="icon_bar"></span>
+                <span class="icon_bar"></span>
+            </button>
+            <div id="nav-header" class="col-lg-9 col-md-9 col-sm-8 col-xs-12 ">
+                <ul>
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="about.html">Giới thiệu</a></li>
+                    <li><a href="service.html">Dịch vụ</a></li>
+                    <li class="active"><a href="shop.html">Cửa hàng</a></li>
+                    <li><a href="news.html">Tin tức</a></li>
+                    <li><a href="gallery.html">Bộ sưu tập</a></li>
+                    <li><a href="contact.html">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!--    Shop
+--------------------------------------------------------------->
+<div id="shop">
+    <div class="container">
+
+        <!--Side Bar-->
+        <aside class="col-lg-3 col-md-3 col-sm-3 del-padding">
+            <!--img-menu-->
+            <div id="img-menu" class="fix-height fix-padding del-padding">
+                <img src="images/hoayeu/bg-menu-shop.png" alt=""/>
+            </div>
+            <!--cart-->
+            <div id="cart" class="fix-height-sidebar">
+                <div id="search-sp" class="fix-padding fix-margin title-node">
+                    <p class="button-search">Tìm kiếm</p>
+                    <label for="sl1" class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+                        <select id="sl1" class="price">
+                            <option selected >Giá tiền</option>
+                            <option value="1">100K</option>
+                            <option value="2">200K</option>
+                        </select>
+                    </label>
+                    <label for="sl2" class="col-lg-5 col-lg-push-2 col-md-5 col-md-push-2 col-sm-6 col-xs-12">
+                        <select id="sl2" class="color ">
+                            <option selected>Mầu sắc</option>
+                            <option value="1">Đỏ</option>
+                            <option value="2">Vàng</option>
+                            <option value="3">Trắng</option>
+                        </select>
+                    </label>
+                </div>
+                <div id="cart-box" class="content-box fix-padding">
+                    <p>Rỏ hàng <span class="num">0</span></p>
+                </div>
+            </div>
+            <div class="side-bar fix-margin fix-padding">
+                <p class="menu-extra-small">DANH MỤC SẢN PHẨM</p>
+                <ul>
+                    <li><a>Điện hoa trong nước</a>
+                        <ul>
+                            <li><a href="#">Hoa nhập khẩu</a></li>
+                            <li><a href="#">Hoa tình yêu</a></li>
+                            <li><a href="#">Hoa cao cấp</a></li>
+                            <li><a href="#">Hoa cao cấp</a></li>
+                            <li><a href="#">Hoa chia buồn</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li><a>Điện hoa trong nước</a>
+                        <ul>
+                            <li><a href="#">Hoa nhập khẩu</a></li>
+                            <li><a href="#">Hoa tình yêu</a></li>
+                            <li><a href="#">Hoa cao cấp</a></li>
+                            <li><a href="#">Hoa cao cấp</a></li>
+                            <li><a href="#">Hoa chia buồn</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li><a>Điện hoa trong nước</a>
+                        <ul>
+                            <li><a href="#">Hoa nhập khẩu</a></li>
+                            <li><a href="#">Hoa tình yêu</a></li>
+                            <li><a href="#">Hoa cao cấp</a></li>
+                            <li><a href="#">Hoa cao cấp</a></li>
+                            <li><a href="#">Hoa chia buồn</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li><a>Điện hoa trong nước</a>
+                        <ul>
+                            <li><a href="#">Hoa nhập khẩu</a></li>
+                            <li><a href="#">Hoa tình yêu</a></li>
+                            <li><a href="#">Hoa cao cấp</a></li>
+                            <li><a href="#">Hoa cao cấp</a></li>
+                            <li><a href="#">Hoa chia buồn</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li><a>Điện hoa trong nước</a>
+                        <ul>
+                            <li><a href="#">Hoa nhập khẩu</a></li>
+                            <li><a href="#">Hoa tình yêu</a></li>
+                            <li><a href="#">Hoa cao cấp</a></li>
+                            <li><a href="#">Hoa cao cấp</a></li>
+                            <li><a href="#">Hoa chia buồn</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- Content-->
+        <article class="col-lg-9 col-md-9 col-sm-9 del-padding">
+            <div class="col-lg-4 col-md-4 col-sm-4 node fix-height del-padding">
+                <div class="fix-margin">
+                    <div class="fix-padding title-node-2">
+                        <hgroup>0070 - Sắc Vàng</hgroup>
+                        <p class="text-price">900.000 VND</p>
+                    </div>
+                    <div class="fix-padding title-node-2 content-sp">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 title-content">
+                            <p class="title-ct">Antartic</p>
+                            <p>Antartic Survivor is a new book by the illustrator Ian O’Shea Antartic Survivor is a new book.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 order">
+                            <a href="#">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a><img src="images/hoayeu/sp(1).jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 node fix-height del-padding">
+                <div class="fix-margin">
+                    <div class="fix-padding title-node-2">
+                        <hgroup>0070 - Sắc Vàng</hgroup>
+                        <p class="text-price">900.000 VND</p>
+                    </div>
+                    <div class="fix-padding title-node-2 content-sp">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 title-content">
+                            <p class="title-ct">Antartic</p>
+                            <p>Antartic Survivor is a new book by the illustrator Ian O’Shea Antartic Survivor is a new book.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 order">
+                            <a href="#">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a><img src="images/hoayeu/sp(1).jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 node fix-height del-padding">
+                <div class="fix-margin">
+                    <div class="fix-padding title-node-2">
+                        <hgroup>0070 - Sắc Vàng</hgroup>
+                        <p class="text-price">900.000 VND</p>
+                    </div>
+                    <div class="fix-padding title-node-2 content-sp">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 title-content">
+                            <p class="title-ct">Antartic</p>
+                            <p>Antartic Survivor is a new book by the illustrator Ian O’Shea Antartic Survivor is a new book.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 order">
+                            <a href="#">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a><img src="images/hoayeu/sp(1).jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 node fix-height del-padding">
+                <div class="fix-margin">
+                    <div class="fix-padding title-node-2">
+                        <hgroup>0070 - Sắc Vàng</hgroup>
+                        <p class="text-price">900.000 VND</p>
+                    </div>
+                    <div class="fix-padding title-node-2 content-sp">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 title-content">
+                            <p class="title-ct">Antartic</p>
+                            <p>Antartic Survivor is a new book by the illustrator Ian O’Shea Antartic Survivor is a new book.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 order">
+                            <a href="#">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a><img src="images/hoayeu/sp(1).jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 node fix-height del-padding">
+                <div class="fix-margin">
+                    <div class="fix-padding title-node-2">
+                        <hgroup>0070 - Sắc Vàng</hgroup>
+                        <p class="text-price">900.000 VND</p>
+                    </div>
+                    <div class="fix-padding title-node-2 content-sp">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 title-content">
+                            <p class="title-ct">Antartic</p>
+                            <p>Antartic Survivor is a new book by the illustrator Ian O’Shea Antartic Survivor is a new book.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 order">
+                            <a href="#">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a><img src="images/hoayeu/sp(1).jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 node fix-height del-padding">
+                <div class="fix-margin">
+                    <div class="fix-padding title-node-2">
+                        <hgroup>0070 - Sắc Vàng</hgroup>
+                        <p class="text-price">900.000 VND</p>
+                    </div>
+                    <div class="fix-padding title-node-2 content-sp">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 title-content">
+                            <p class="title-ct">Antartic</p>
+                            <p>Antartic Survivor is a new book by the illustrator Ian O’Shea Antartic Survivor is a new book.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 order">
+                            <a href="#">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a><img src="images/hoayeu/sp(1).jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 node fix-height del-padding">
+                <div class="fix-margin">
+                    <div class="fix-padding title-node-2">
+                        <hgroup>0070 - Sắc Vàng</hgroup>
+                        <p class="text-price">900.000 VND</p>
+                    </div>
+                    <div class="fix-padding title-node-2 content-sp">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 title-content">
+                            <p class="title-ct">Antartic</p>
+                            <p>Antartic Survivor is a new book by the illustrator Ian O’Shea Antartic Survivor is a new book.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 order">
+                            <a href="#">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a><img src="images/hoayeu/sp(1).jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 node fix-height del-padding">
+                <div class="fix-margin">
+                    <div class="fix-padding title-node-2">
+                        <hgroup>0070 - Sắc Vàng</hgroup>
+                        <p class="text-price">900.000 VND</p>
+                    </div>
+                    <div class="fix-padding title-node-2 content-sp">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 title-content">
+                            <p class="title-ct">Antartic</p>
+                            <p>Antartic Survivor is a new book by the illustrator Ian O’Shea Antartic Survivor is a new book.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 order">
+                            <a href="#">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a><img src="images/hoayeu/sp(1).jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 node fix-height del-padding">
+                <div class="fix-margin">
+                    <div class="fix-padding title-node-2">
+                        <hgroup>0070 - Sắc Vàng</hgroup>
+                        <p class="text-price">900.000 VND</p>
+                    </div>
+                    <div class="fix-padding title-node-2 content-sp">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 title-content">
+                            <p class="title-ct">Antartic</p>
+                            <p>Antartic Survivor is a new book by the illustrator Ian O’Shea Antartic Survivor is a new book.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 order">
+                            <a href="#">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a><img src="images/hoayeu/sp(1).jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 node fix-height del-padding">
+                <div class="fix-margin">
+                    <div class="fix-padding title-node-2">
+                        <hgroup>0070 - Sắc Vàng</hgroup>
+                        <p class="text-price">900.000 VND</p>
+                    </div>
+                    <div class="fix-padding title-node-2 content-sp">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 title-content">
+                            <p class="title-ct">Antartic</p>
+                            <p>Antartic Survivor is a new book by the illustrator Ian O’Shea Antartic Survivor is a new book.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 order">
+                            <a href="#">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a><img src="images/hoayeu/sp(1).jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 node fix-height del-padding">
+                <div class="fix-margin">
+                    <div class="fix-padding title-node-2">
+                        <hgroup>0070 - Sắc Vàng</hgroup>
+                        <p class="text-price">900.000 VND</p>
+                    </div>
+                    <div class="fix-padding title-node-2 content-sp">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 title-content">
+                            <p class="title-ct">Antartic</p>
+                            <p>Antartic Survivor is a new book by the illustrator Ian O’Shea Antartic Survivor is a new book.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 order">
+                            <a href="#">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a><img src="images/hoayeu/sp(1).jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 node fix-height del-padding">
+                <div class="fix-margin">
+                    <div class="fix-padding title-node-2">
+                        <hgroup>0070 - Sắc Vàng</hgroup>
+                        <p class="text-price">900.000 VND</p>
+                    </div>
+                    <div class="fix-padding title-node-2 content-sp">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 title-content">
+                            <p class="title-ct">Antartic</p>
+                            <p>Antartic Survivor is a new book by the illustrator Ian O’Shea Antartic Survivor is a new book.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 order">
+                            <a href="#">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a><img src="images/hoayeu/sp(1).jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 node fix-height del-padding">
+                <div class="fix-margin">
+                    <div class="fix-padding title-node-2">
+                        <hgroup>0070 - Sắc Vàng</hgroup>
+                        <p class="text-price">900.000 VND</p>
+                    </div>
+                    <div class="fix-padding title-node-2 content-sp">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 title-content">
+                            <p class="title-ct">Antartic</p>
+                            <p>Antartic Survivor is a new book by the illustrator Ian O’Shea Antartic Survivor is a new book.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 order">
+                            <a href="#">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a><img src="images/hoayeu/sp(1).jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 node fix-height del-padding">
+                <div class="fix-margin">
+                    <div class="fix-padding title-node-2">
+                        <hgroup>0070 - Sắc Vàng</hgroup>
+                        <p class="text-price">900.000 VND</p>
+                    </div>
+                    <div class="fix-padding title-node-2 content-sp">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 title-content">
+                            <p class="title-ct">Antartic</p>
+                            <p>Antartic Survivor is a new book by the illustrator Ian O’Shea Antartic Survivor is a new book.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 order">
+                            <a href="#">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a><img src="images/hoayeu/sp(1).jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 node fix-height del-padding">
+                <div class="fix-margin">
+                    <div class="fix-padding title-node-2">
+                        <hgroup>0070 - Sắc Vàng</hgroup>
+                        <p class="text-price">900.000 VND</p>
+                    </div>
+                    <div class="fix-padding title-node-2 content-sp">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 title-content">
+                            <p class="title-ct">Antartic</p>
+                            <p>Antartic Survivor is a new book by the illustrator Ian O’Shea Antartic Survivor is a new book.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 order">
+                            <a href="#">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a><img src="images/hoayeu/sp(1).jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 node fix-height del-padding">
+                <div class="fix-margin">
+                    <div class="fix-padding title-node-2">
+                        <hgroup>0070 - Sắc Vàng</hgroup>
+                        <p class="text-price">900.000 VND</p>
+                    </div>
+                    <div class="fix-padding title-node-2 content-sp">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 title-content">
+                            <p class="title-ct">Antartic</p>
+                            <p>Antartic Survivor is a new book by the illustrator Ian O’Shea Antartic Survivor is a new book.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 order">
+                            <a href="#">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a><img src="images/hoayeu/sp(1).jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 node fix-height del-padding">
+                <div class="fix-margin">
+                    <div class="fix-padding title-node-2">
+                        <hgroup>0070 - Sắc Vàng</hgroup>
+                        <p class="text-price">900.000 VND</p>
+                    </div>
+                    <div class="fix-padding title-node-2 content-sp">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 title-content">
+                            <p class="title-ct">Antartic</p>
+                            <p>Antartic Survivor is a new book by the illustrator Ian O’Shea Antartic Survivor is a new book.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 order">
+                            <a href="#">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a><img src="images/hoayeu/sp(1).jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 node fix-height del-padding">
+                <div class="fix-margin">
+                    <div class="fix-padding title-node-2">
+                        <hgroup>0070 - Sắc Vàng</hgroup>
+                        <p class="text-price">900.000 VND</p>
+                    </div>
+                    <div class="fix-padding title-node-2 content-sp">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 title-content">
+                            <p class="title-ct">Antartic</p>
+                            <p>Antartic Survivor is a new book by the illustrator Ian O’Shea Antartic Survivor is a new book.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 order">
+                            <a href="#">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a><img src="images/hoayeu/sp(1).jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 node fix-height del-padding">
+                <div class="fix-margin">
+                    <div class="fix-padding title-node-2">
+                        <hgroup>0070 - Sắc Vàng</hgroup>
+                        <p class="text-price">900.000 VND</p>
+                    </div>
+                    <div class="fix-padding title-node-2 content-sp">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 title-content">
+                            <p class="title-ct">Antartic</p>
+                            <p>Antartic Survivor is a new book by the illustrator Ian O’Shea Antartic Survivor is a new book.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 order">
+                            <a href="#">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a><img src="images/hoayeu/sp(1).jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 node fix-height del-padding">
+                <div class="fix-margin">
+                    <div class="fix-padding title-node-2">
+                        <hgroup>0070 - Sắc Vàng</hgroup>
+                        <p class="text-price">900.000 VND</p>
+                    </div>
+                    <div class="fix-padding title-node-2 content-sp">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 title-content">
+                            <p class="title-ct">Antartic</p>
+                            <p>Antartic Survivor is a new book by the illustrator Ian O’Shea Antartic Survivor is a new book.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 order">
+                            <a href="#">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a><img src="images/hoayeu/sp(1).jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 node fix-height del-padding">
+                <div class="fix-margin">
+                    <div class="fix-padding title-node-2">
+                        <hgroup>0070 - Sắc Vàng</hgroup>
+                        <p class="text-price">900.000 VND</p>
+                    </div>
+                    <div class="fix-padding title-node-2 content-sp">
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 title-content">
+                            <p class="title-ct">Antartic</p>
+                            <p>Antartic Survivor is a new book by the illustrator Ian O’Shea Antartic Survivor is a new book.</p>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 order">
+                            <a href="#">Đặt hàng</a>
+                        </div>
+                    </div>
+                    <div class="img">
+                        <a><img src="images/hoayeu/sp(1).jpg" alt=""/></a>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </article>
+    </div>
+</div>
+
+<!--    Footer
+--------------------------------------------------------------->
+<footer>
+    <div class="container">
+        <div id="contact">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <hgroup>Liên hệ</hgroup>
+                <ul>
+                    <li>Contact number: +27 21 887 8138</li>
+                    <li>Fax: +27 21 887 3698</li>
+                    <li>Email: info@flowersinthefoyer.co.za</li>
+                </ul>
+            </div>
+            <div class="col-lg-4  col-md-4 col-sm-4 col-xs-12">
+                <hgroup>Địa chỉ</hgroup>
+                <ul>
+                    <li>Weekdays 8:00 am–5:00 pm</li>
+                    <li>Hà Nội</li>
+                    <li>44 Ryneveld Street</li>
+                    <li>TP.HỒ CHÍ MINH</li>
+                    <li>44 Ryneveld Street</li>
+                </ul>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <img src="images/hoayeu/order-ft.jpg" alt=""/>
+            </div>
+        </div>
+        <div id="copyright">
+            <div>
+                <p>© COPYRIGHT 2013 / DEVELOPED BY <span>OMEDIA.VN</span></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

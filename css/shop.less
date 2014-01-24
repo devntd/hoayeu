@@ -1,0 +1,510 @@
+@import "../less/bootstrap.less";
+
+
+/*0000000000000000000000000000000000000000000000000000000*/
+
+/*  Shop
+*******************************************************************************/
+div#shop{
+  .transition(all .4s linear 0s);
+  margin-top: 40px;
+  background:url("../images/hoayeu/bg-shop-1.png");
+  .fix-height-sidebar{
+    height: 200px;
+    overflow: hidden;
+  }
+  .fix-height{
+    height: 194px;
+    overflow: hidden;
+    margin: 3px 0 3px;
+  }
+  .del-padding{
+    .del-padding;
+  }
+  .fix-padding{
+    padding: 0 15px;
+  }
+  .content-box{
+    padding-top: 80px;
+  }
+  .fix-margin{
+    margin: 0px 3px 3px 2px !important;
+  }
+  .title-node{
+    z-index: 100;
+    position: absolute;
+    width: 100%;
+    height:61px;
+    background: url("../images/hoayeu/box-title-tiny.png")repeat-x;
+    background-position: 0px 1px;
+  }
+  .title-node-2{
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    overflow: hidden;
+    background: url("../images/hoayeu/box-title-tiny-2.png")repeat-x;
+    background-position: 0px 0px;
+  }
+  div.container{
+    .transition(all .4s linear 0s);
+    .del-padding;
+    overflow: hidden;
+    background:
+      url("../images/hoayeu/bg-shop-2.png"),
+      url("../images/hoayeu/bg.jpg");
+    aside{
+      /*img-menu*/
+      div#img-menu{
+        img{
+          width: 100%;
+        }
+      }
+
+      /*cart*/
+      div#cart{
+        margin: 1px;
+        position: relative;
+        div#search-sp{
+          p.button-search{
+            color: @color-deepskyblue;
+            font-size: @font-size-h3;
+            border-bottom: 1px dotted @color-yellow;
+            font-family: @font-family-uppercase;
+            text-transform: uppercase;
+            cursor: pointer;
+            margin: 0 0 5px;
+          }
+          select {
+            border: 1px dotted @color-red !important;
+            width: 100%;
+            height: 20px;
+            padding:0px;
+            margin: 0;
+            background: #f8f8f8;
+            color:#888;
+            outline:none;
+            display: inline-block;
+            -webkit-appearance:none;
+            -moz-appearance:none;
+            appearance:none;
+            cursor:pointer;
+            option{
+              border: 1px dotted @color-deepskyblue !important;
+              cursor: pointer !important;
+              &:hover{
+                background: @color-yellow !important;
+              }
+            }
+          }
+
+          /* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+          @media screen and (-webkit-min-device-pixel-ratio:0) {
+            select {padding-right:18px}
+          }
+
+          label {
+            .del-padding;
+            position:relative
+          }
+          label:after {
+            content:'<>';
+            font:11px "Consolas", monospace;
+            color:#aaa;
+            -webkit-transform:rotate(90deg);
+            -moz-transform:rotate(90deg);
+            -ms-transform:rotate(90deg);
+            transform:rotate(90deg);
+            right:8px; top:2px;
+            padding:0 0 2px;
+            border-bottom:1px solid #ddd;
+            position:absolute;
+            pointer-events:none;
+          }
+        }
+        div#cart-box{
+          p{
+            color: @color-pink;
+            font-size: @font-size-h2;
+            text-transform: uppercase;
+            span.num{
+              padding: 0 5px;
+              background: @color-brown;
+              color: @color-white;
+            }
+          }
+        }
+      }
+
+      /*side-bar*/
+      div.side-bar{
+        .ul-active{
+          height: 200px;
+        }
+        p.menu-extra-small{
+          display: none;
+        }
+        ul{
+          .del-padding;
+          li{
+            margin-bottom: 10px;
+            a{
+              color: @color-deepskyblue;
+              display: block;
+              width: 100%;
+              font-size: @font-size-h3 + 3px;
+              .transition(all .4s linear 0s);
+              cursor: pointer;
+              font-family: @font-family-title;
+              text-transform: uppercase;
+              &:hover{
+                background: #EDEDED;
+              }
+            }
+            &:hover a{
+              background: #EDEDED;
+            }
+            .ul-child-active{
+              display: block !important;
+            }
+            ul{
+              display: none;
+              li{
+                margin-bottom: 0px !important;
+                a{
+                  color: @color-grey;
+                  font-family: @font-family-base;
+                  text-transform: none;
+                  background: transparent !important;
+                  font-size: @font-size-h5 + 1px;
+                  line-height: 25px;
+                  color: #888888;
+                  text-indent: 10px;
+                  &:hover{
+                    background: #EDEDED !important;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    article{
+      .node-active{
+        .transition(all .4s linear 0s);
+        height: 394px ;
+      }
+      div.node{
+        overflow: hidden !important;
+        div.title-node-2{
+          cursor: pointer;
+          hgroup.hgroup-active{
+            margin-top: 7px;
+            font-size: @font-size-h2 - 4;
+            color: @color-deepskyblue;
+          }
+          hgroup{
+            color: #888888;
+            font-size: @font-size-h3;
+            font-family: @font-family-title;
+            text-transform: uppercase;
+          }
+          p.text-price{
+            color: #888888;
+          }
+          p.p-active{
+            color: @color-deepskyblue;
+            font-size: @font-size-h3;
+            margin-top: 10px;
+            text-align: right;
+          }
+        }
+
+        div.content-sp-active{
+          opacity: 1 !important;
+        }
+        div.content-sp{
+          .transition(all .4s linear .4s);
+          display: none;
+          opacity: 0;
+          top: 45px !important;
+          height: 70px;
+          overflow: hidden;
+          background: url("../images/hoayeu/box-title-tiny-3.png") repeat-x;
+          width: 100%;
+          padding: 4px 0px 0px !important;
+          div.title-content{
+            p.title-ct{
+              font-size: @font-size-h3;
+              .del-margin;
+              color:  @color-grey;
+            }
+            p{
+              color:  @color-grey;
+              font-size: @font-size-h5 - 2px;
+            }
+          }
+          div.order{
+            margin-top: 12px;
+            overflow: hidden;
+            a{
+              font-size: @font-size-h2;
+              color: @color-orange;
+              .transition(all .2s linear 0s);
+              &:hover{
+                color:  @color-deepskyblue;
+              }
+            }
+          }
+        }
+
+      }
+      div.img{
+        a{
+          cursor: pointer;
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+/*  Responsive
+======================================================================================================================*/
+
+/*Medium devices
+======================================================================================================================*/
+@media (min-width: 992px) and (max-width: 1200px) {
+  /*  Shop
+  *******************************************************************************/
+  div#shop{
+    background:url("../images/hoayeu/bg-shop-1-970-242x180.png");
+    .fix-height{
+      height: 174px;
+    }
+    .fix-height-sidebar{
+      height: 180px;
+    }
+    div.container{
+      background:
+        url("../images/hoayeu/bg-shop-2-970-242x180.png"),
+        url("../images/hoayeu/bg.jpg");
+      article{
+        .node-active{
+          height: 354px !important;
+        }
+        div.node{
+          div.content-sp-active{
+            opacity: 1 !important;
+          }
+          div.content-sp{
+
+            div.title-content{
+              p.title-ct{ }
+              p{
+                font-size: @font-size-h5 - 2px;
+              }
+            }
+            div.order{
+              margin-top: 17px;
+              a{
+                font-size: @font-size-h3;
+              }
+            }
+          }
+        }
+      }
+    }
+
+  }
+}
+
+/*  Small devices
+======================================================================================================================*/
+/*  ( min-width: 768px) and (max-width: 992px)
+*******************************************/
+@media (min-width: 768px) and (max-width: 992px) {
+  /*  Shop
+  *******************************************************************************/
+  div#shop{
+    background:url("../images/hoayeu/bg-shop-1-750-187x180.png");
+    .fix-height{
+      height: 174px !important;
+    }
+    .fix-height-sidebar{
+      height: 180px;
+    }
+    div.container{
+      background:
+        url("../images/hoayeu/bg-shop-2-750-187x180.png"),
+        url("../images/hoayeu/bg.jpg");
+      aside{
+        div#img-menu{
+          img{
+            display: block;
+            margin-top: 25px;
+            width: 100%;
+          }
+        }
+      }
+      article{
+        .node-active{
+          height: 354px !important;
+        }
+        div.node{
+          div.content-sp-active{
+            opacity: 1 !important;
+          }
+          div.content-sp{
+            div.title-content{
+              p.title-ct{ }
+              p{
+                font-size: @font-size-h5 - 2px;
+              }
+            }
+            div.order{
+              margin-top: 17px;
+              a{
+                font-size: @font-size-h5;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+
+/*  Extra devices
+======================================================================================================================*/
+
+/*  (max-width: 768px)
+*******************************************/
+@media (max-width: 768px) {
+  /*  Shop
+    *******************************************************************************/
+  div#shop{
+    background:url("../images/hoayeu/bg-shop-1-750-187x180.png");
+    .fix-height{
+      height: 180px;
+    }
+    .fix-height-sidebar{
+      height: 180px;
+    }
+    div.container{
+      background:
+        url("../images/hoayeu/bg-shop-2-750-187x180.png"),
+        url("../images/hoayeu/bg.jpg");
+      aside{
+        div#img-menu{
+          display: none;
+          img{
+            display: block;
+            margin-top: 25px;
+            width: 100%;
+          }
+        }
+        /*side-bar*/
+        div.side-bar{
+          background: @color-orange;
+          .ul-active{
+            height: auto !important;
+          }
+          p.menu-extra-small{
+            display: block;
+            font-size: @font-size-h3 + 2px;
+            text-align: center;
+            color: @color-deepskyblue;
+            cursor: pointer;
+            background: @color-yellow;
+            .transition(all .2s linear 0s);
+            &:hover{
+              color: @color-white;
+              background: @color-orange;
+            }
+          }
+          ul{
+            display: none;
+            text-align: center;
+            .del-padding;
+            li{
+              margin-bottom: 0px;
+              a{
+                color: @color-yellow;
+                &:hover{
+                  background: rgba(0,0,0,.1) !important;
+                }
+              }
+              &:hover a{
+                background: rgba(0,0,0,.1) !important;
+              }
+              .ul-child-active{ }
+              ul{
+                li{
+                  margin-bottom: 0px !important;
+                  a{
+                    color: @color-white;
+                    &:hover{
+                      color: @color-orange;
+                      background: #EDEDED !important;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      article{
+        .node-active{
+          height: 200px !important;
+        }
+        div.node{
+          border-top: 1px solid @color-yellow;
+          div.content-sp-active{
+            opacity: 1 !important;
+          }
+          div.content-sp{
+            div.title-content{
+              p.title-ct{ }
+              p{
+                font-size: @font-size-h5 - 2px;
+              }
+            }
+            div.order{
+              padding-left: 0px;
+              margin-top: 17px;
+              text-align: right;
+              a{
+                font-size: @font-size-h5;
+              }
+            }
+          }
+        }
+        div.img{
+          text-align: center;
+
+          a{
+            cursor: pointer;
+            img{
+              text-align: center;
+              width: 320px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*  (max-width: 480px)
+*******************************************/
+@media (max-width: 480px) {
+
+}
